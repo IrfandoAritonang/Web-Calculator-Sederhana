@@ -61,6 +61,12 @@ body {
     font-weight: bold;
   }
 
+/* membuat style pada table history */
+.history {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    overflow: scroll;
+ }
 
 @media screen and (max-width: 513px) {
     .button {
