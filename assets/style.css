@@ -68,8 +68,33 @@ body {
     overflow: scroll;
  }
 
-@media screen and (max-width: 513px) {
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+
+ th, td {
+    text-align: center;
+    padding: 16px;
+ }
+
+
+ th {
+    background-color: orange;
+    color: white;
+ }
+  
+ tr:nth-child(even) {
+    background-color: #d2d2d2;
+ }
+
+ @media screen and (max-width: 513px) {
     .button {
         padding: 10px;
+    }
+    .history {
+        width: 100%;
     }
  }
